@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+  .title {
+     font-size: 3em;
+     color: rgb(9, 9, 50);
+  }
+  .title2 {
+    font-size: 1.7em;
+ }
+  .logo {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;  
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    height: fit-content;
+  }   
+  .logo:hover{
+    background-color: rgb(220, 175, 62);
+  }
+  #principal {
+    font-size: 4.5em;
+  }
+  #titulos {
+    border: 2px solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #cards-container {
+    background-color: aquamarine;
+    width:85vw;
+    margin:auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(133, 115, 115);
+    border-radius: 2%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }

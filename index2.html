@@ -3,33 +3,38 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="reset.css">
       <title>MichiNoticias</title>
    </head>
    <body>
 
       <header>
-       <h1>MichiNoticias</h1>
+          <div id="titulos">
+       <h1 class="title" id="principal">MichiNoticias</h1>
        <span>ECONOMÍA</span>
        <span>DEPORTES</span>
        <span>ACTUALIDAD</span>
+         </div>
       </header>
 
       <main>
-
-         <img src="./michinews.jpg"/>
+          
+         <img src="./michinews.jpg" class="logo"/>
 
          <section>
+          <div id="cards-container">
             <article>
-       <h2>Economía y Política</h2>
-       <h3>Aumentó el precio de la michiComida</h3>
+       <h2 class="title">Economía y Política</h2>
+       <h3 class="title2">Aumentó el precio de la michiComida</h3>
        <div>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, repudiandae aperiam beatae voluptatibus nisi vel totam cum vero, hic, provident quas mollitia velit officiis quae itaque impedit praesentium ullam maxime.</p>
       </div>
             </article>
        <hr />
             <article>
-       <h2>Deportes</h2>
-       <h3>Michi escaló el Mont Everest. Consejos para entrenarse</h3>
+       <h2 class="title">Deportes</h2>
+       <h3 class="title2">Michi escaló el Mont Everest. Consejos para entrenarse</h3>
        <p>Lo esencial al entrenar para escalar</p>
        <ul>
             <li>Hidratarse</li>
@@ -39,12 +44,14 @@
             </article>
        <hr />
             <article>
-       <h2>Actualidad</h2>
-       <h2>Felicette recuerda su tiempo como astronauta</h2>
+       <h2 class="title">Actualidad</h2>
+       <h3 class="title2">Felicette recuerda su tiempo como astronauta</h3>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, repudiandae aperiam beatae voluptatibus nisi vel totam cum vero, hic, provident quas mollitia velit officiis quae itaque impedit praesentium ullam maxime.</p>
             </article>
+          </div>
+         </section>
       </main>     
-               </section>
+              
       <footer>
          <p>Encontranos en
          </p>
